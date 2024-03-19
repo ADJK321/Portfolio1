@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Merriweather", serif;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    font-family: "Sacramento", cursive;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    /* font-family: "Sacramento", cursive; */
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+.pro{
+    color: blueviolet;
+}
+
+.topcontainer{
+    background-color: rgb(197, 166, 226);
+    position: relative;
+    padding-top: 100px 
+}
+
+.topcloud{
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+.mountain{
+   
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.profileimg{
+    padding-top:40px ;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    display: block;
+    margin: auto;
+}
+
+.intro{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-family: "Merriweather", serif;
+}
+
+.profile h2{
+
+    color: rgb(205, 177, 231);
+}
+
+hr{
+    border: dotted rgb(205, 177, 231) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.skills h2{
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    color: rgb(205, 177, 231);
+    text-align: center;
+}
+
+.typing img{
+    height: 130px;
+    width: 130px;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+h3{
+    color:rgb(205, 177, 231); 
+    margin-bottom: 15px;
+}
+
+.movie img{
+    margin-left: -62px;
+}
+
+.contact-me h2{
+
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.contact-me h3{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contact-me  p {
+     text-align: center;
+     width: 60%;
+    margin: 40px auto 60px;
+    
+}
+
+.btn{
+    width: 150px;
+    display: block;
+    margin: 10px auto 10px auto;
+    padding: 10px 20px 10px 20px ;
+    background-color:rgb(205, 177, 231) ;
+    border-radius: 8px ;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom-container {
+    background-color: rgb(191, 151, 227);
+    padding: 50px 0 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px ;
+    color: rgb(205, 177, 231);
+    font-weight: bold;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 25px 0;
+}
